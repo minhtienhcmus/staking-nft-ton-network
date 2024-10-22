@@ -1,0 +1,40 @@
+int op::transfer() asm "0x5fcc3d14 PUSHINT";
+int op::ownership_assigned() asm "0x05138d91 PUSHINT";
+int op::excesses() asm "0xd53276db PUSHINT";
+int op::get_static_data() asm "0x2fcb26a2 PUSHINT";
+int op::report_static_data() asm "0x8b771735 PUSHINT";
+int op::get_royalty_params() asm "0x693d3950 PUSHINT";
+int op::report_royalty_params() asm "0xa8cb00ad PUSHINT";
+
+;; NFTEditable
+int op::edit_content() asm "0x1a0b9d51 PUSHINT";
+int op::transfer_editorship() asm "0x1c04412a PUSHINT";
+int op::editorship_assigned() asm "0x511a4463 PUSHINT";
+;;admin
+int op::deposit_jetton_reward() asm "0x511a4464 PUSHINT";
+int op::withdraw_jetton_reward() asm "0x511a4465 PUSHINT";
+;;user
+int op::stakeNft() asm "0x511a4466 PUSHINT";
+int op::stake() asm "0x511a4469 PUSHINT";
+int op::unstakeNft() asm "0x511a4467 PUSHINT";
+int op::unstake() asm "0x511a4470 PUSHINT";
+int op::user_harvest() asm "0x511a4468 PUSHINT";
+;;
+int op::change_owner() asm "0x21746f75 PUSHINT";
+int op::change_jetton_wallet() asm "0x21746f77 PUSHINT";
+int op::change_budget() asm "0x21746f78 PUSHINT";
+int op::change_monitor() asm "0xa81f6ff3 PUSHINT";
+int op::claim_token_remain() asm "0x4b237977 PUSHINT";
+int op::claim_token_admin() asm "0x4b237978 PUSHINT";
+int op::claim_ton_admin() asm "0x4b237979 PUSHINT";
+int op::add_aff_user() asm "0xab418819 PUSHINT";
+int op::jetton_transfer() asm "0xf8a7ea5 PUSHINT";
+int op::stop_campaign() asm "0x4aa61b24 PUSHINT";
+int op::pause_campaign() asm "0x578403ed PUSHINT";
+int op::restart_campaign() asm "0x1ef0720a PUSHINT";
+int op::add_reward_user() asm "0xfc889398 PUSHINT";
+int op::add_reward_airdrop() asm "0x4df6b26f PUSHINT";
+
+const int SEND_MODE_CARRY_ALL_REMAINING_MESSAGE_VALUE = 64;
+const int BOUNCEABLE = 0x18;
+const int NON_BOUNCEABLE = 0x10;

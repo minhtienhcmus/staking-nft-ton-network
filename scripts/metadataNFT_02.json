@@ -1,0 +1,17 @@
+
+{
+  "name": "Cabin Module",
+  "description": "Symmetrical to the right, this wing is fitted with sensor arrays to collect data on the cosmic environment. Built-in thrusters help maintain balance and course accuracy. Collect all parts to combine them into a single spaceship.",
+  "image": "https://ipfs.filebase.io/ipfs/QmPeoHUk9H2HSGWUCbiyu7WSMdF4Xb4c8TPVxQ4iuXaLYH",
+  "project": "MMPro BUMP",
+  "attributes": [
+    {
+      "trait_type": "Module",
+      "value": "Cabin Module"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}
